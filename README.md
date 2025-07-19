@@ -20,7 +20,7 @@ I have one example of each, type 9 scrypt, is the more secure, it is computation
 
 # VLANS
 
-On my lab we have quite a few devices, and often for efficiency and security, we want to seperate the traffic through the network into different VLANs, 
+On my lab we have quite a few devices, and often for efficiency and security, we want to seperate the traffic through the network into different logical segments using VLANs, 
 this way only devices on the 'Management' VLAN, receive traffic meant for management, and so forth. 
 <img width="988" height="576" alt="image" src="https://github.com/user-attachments/assets/0d44e74c-4365-4f68-9bb5-939624de279d" />
 
