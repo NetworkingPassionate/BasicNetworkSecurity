@@ -13,3 +13,4 @@ I have one example of each, type 9 scrypt, is the more secure, it is computation
 
 
 <img width="562" height="222" alt="image" src="https://github.com/user-attachments/assets/0d90a547-9184-4d73-b0d2-1e48d4c16c0f" />
+<img width="643" height="46" alt="image" src="https://github.com/user-attachments/assets/b6683a69-cff9-4bcd-a6f8-a8387731db07" />
