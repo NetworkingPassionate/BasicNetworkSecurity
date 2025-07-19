@@ -1,4 +1,7 @@
-# BasicNetworkSecurity
+<img width="671" height="370" alt="image" src="https://github.com/user-attachments/assets/4c73834b-56d7-4b3e-8903-3068c00c9f6c" /># BasicNetworkSecurity
+
+<img width="671" height="370" alt="image" src="https://github.com/user-attachments/assets/1b8ce3ca-bfa1-46d1-a9ab-35e9c735372a" />
+
 This is a set of basic network security tasks!
 
 On this network I will be applying MD5 hash (level 5) encrypted passwords, and scrypt encrypted (level 9) passwords.
