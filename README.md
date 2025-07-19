@@ -4,6 +4,7 @@ This is a set of basic network security tasks!
 Here we have a very simple network, comrprising of a switch, router, and 3 PC's. 
 On this network I will be applying MD5 hash (level 5) encrypted passwords, and scrypt encrypted (level 9) passwords.
 <img width="508.2" height="323.4" alt="image" src="https://github.com/user-attachments/assets/5d43886b-8af3-4cea-bc54-faeaa6341ae1" />
+asd
 <img width="306.6" height="280.7" alt="image" src="https://github.com/user-attachments/assets/cb95c7a4-2aa0-47c9-b9ef-0aa975a81e65" />
 
 As you can see, sometimes type 9 passwords or passwords made with the scrypt hash algorithm aren't an option, so you need to use MD5 Hash.
