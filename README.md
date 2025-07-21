@@ -37,13 +37,15 @@ Port-Security has 2 modes; sticky, static and dynamic. Each of these settings ha
 Here in this example we have a basic switch setup, with 2 trusted PCs, and a rogue laptop. The rogue laptop will attempt to gain access to the network via the switch, however, the switch has not learned its MAC address an associated it with one of its ports. 
 In this simple lab, MAC Address learning is set to **sticky**, and the violation mode is set to **restrict**. for ports f0/1-3. 
 
+
+<img width="527" height="450" alt="image" src="https://github.com/user-attachments/assets/797e9ce1-022e-47cb-9438-de741f9f79a7" />
 <img width="478" height="415" alt="image" src="https://github.com/user-attachments/assets/44dc6709-e349-4f8f-b3b4-6659f82e1701" />
 
 <img width="527" height="93" alt="image" src="https://github.com/user-attachments/assets/642d22e1-543a-45c7-9ab8-d14d4552a9c3" />
 
 
 <img width="436" height="408" alt="image" src="https://github.com/user-attachments/assets/124381c1-2169-4254-8041-b202c92b5a67" />
-<img width="527" height="450" alt="image" src="https://github.com/user-attachments/assets/797e9ce1-022e-47cb-9438-de741f9f79a7" />
+
 
 <img width="392" height="194" alt="image" src="https://github.com/user-attachments/assets/5a8b76e7-7339-4314-bda0-d133dce095d0" />
 
