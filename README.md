@@ -39,7 +39,6 @@ In this simple lab, MAC Address learning is set to **sticky**, and the violation
 
 
 <img width="527" height="450" alt="image" src="https://github.com/user-attachments/assets/797e9ce1-022e-47cb-9438-de741f9f79a7" />
-<img width="478" height="415" alt="image" src="https://github.com/user-attachments/assets/44dc6709-e349-4f8f-b3b4-6659f82e1701" />
 
 <img width="527" height="93" alt="image" src="https://github.com/user-attachments/assets/642d22e1-543a-45c7-9ab8-d14d4552a9c3" />
 
