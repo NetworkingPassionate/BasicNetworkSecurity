@@ -25,3 +25,20 @@ this way only devices on the 'Management' VLAN, receive traffic meant for manage
 <img width="988" height="576" alt="image" src="https://github.com/user-attachments/assets/0d44e74c-4365-4f68-9bb5-939624de279d" />
 
 <img width="656" height="306" alt="image" src="https://github.com/user-attachments/assets/4013ded9-cc42-4e32-9477-3793a7653633" />
+
+
+
+# Port-Security
+
+Port-Security is designed to either **protect**, **restrict** or **shutdown** ports when it detects an unregistered/unauthorised device attempting access via a port. 
+Port-Security has 2 modes; sticky, static and dynamic. Each of these settings has different functionalities, depending on how secure you want your device, and how critical distruption of service can be. 
+
+
+Here in this example we have a basic switch setup, with 2 trusted PCs, and a rogue laptop. The rogue laptop will attempt to gain access to the network via the switch, however, the switch has not learned its MAC address an associated it with one of its ports. 
+In this simple lab, MAC Address learning is set to **sticky**, and the violation mode is set to **restrict**. for ports f0/1-3. 
+<img width="662" height="434" alt="image" src="https://github.com/user-attachments/assets/1caf3d21-4d89-4ee8-9716-ab8512b849e2" />
+<img width="630" height="469" alt="image" src="https://github.com/user-attachments/assets/7ad96307-b82e-4541-8e65-70693b1ca2fa" />
+<img width="674" height="410" alt="image" src="https://github.com/user-attachments/assets/f5197fa8-2040-483b-9c35-42109205f52d" />
+<img width="1309" height="472" alt="image" src="https://github.com/user-attachments/assets/475f25dd-26af-4a94-9c77-269fc4d9b0dc" />
+
+<img width="788" height="726" alt="image" src="https://github.com/user-attachments/assets/6c9b877c-5af1-4f5e-b7f8-0093e10e6913" />
