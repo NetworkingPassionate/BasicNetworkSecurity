@@ -3,14 +3,27 @@
 This is a set of basic network security tasks!
 
 # Passwords
-On this network I will be applying MD5 hash (level 5) encrypted passwords, and scrypt encrypted (level 9) passwords.
+
+🔐 Password Security Demonstration: Type 5 (MD5) vs Type 9 (scrypt)
+This network lab includes hands-on demonstrations of two Cisco password encryption schemes:
+- Type 5: Legacy MD5-based hashing
+- Type 9: Modern scrypt-based hashing, offering stronger resistance to brute-force attacks
 
 <img width="508.2" height="323.4" alt="image" src="https://github.com/user-attachments/assets/5d43886b-8af3-4cea-bc54-faeaa6341ae1" />
 
 <img width="306.6" height="280.7" alt="image" src="https://github.com/user-attachments/assets/cb95c7a4-2aa0-47c9-b9ef-0aa975a81e65" />
 
-Sometimes type 9 passwords or passwords made with the scrypt hash algorithm aren't an option, so you need to use MD5 Hash.
-I have one example of each, type 9 scrypt, is the more secure, it is computationally intensive and resistant to brute-force attacks compared to the MD5 algorithm used by Type 5. So whenever given the chance, use type 9.
+Both methods are used to secure local passwords on Cisco devices, depending on hardware and IOS version compatibility.
+💡 Why Use Type 9?
+Where supported, Type 9 (scrypt) should always be preferred:
+- Designed for password hardening
+- Computationally intensive and memory-bound
+- Far more resilient against dictionary and brute-force attacks than MD5
+However, in some environments — such as older IOS versions or constrained hardware — Type 9 may not be available. In those cases, Type 5 (MD5) remains a fallback option.
+This lab contains one example of each, allowing for comparison of syntax, behavior, and configuration within a simulated network environment.
+
+
+
 
 
 
