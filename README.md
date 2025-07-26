@@ -39,24 +39,12 @@ This lab demonstrates foundational network security practices through VLAN-based
 To enhance both efficiency and security, devices are grouped into logical domains using dedicated VLANs. For instance, only devices within the Management VLAN receive administrative traffic, while Phones, Wi-Fi clients, and User PCs operate within isolated VLANs tailored to their roles.
 
 <img width="988" height="576" alt="image" src="https://github.com/user-attachments/assets/0d44e74c-4365-4f68-9bb5-939624de279d" />
-
+📷 Visual Overview
+The diagram showcases two distinct office environments (A & B), each populated with access switches, phones, laptops, and wireless access points. This segmentation ensures traffic is properly separated, enhances fault isolation, and supports scalability.
 <img width="656" height="306" alt="image" src="https://github.com/user-attachments/assets/4013ded9-cc42-4e32-9477-3793a7653633" />
 
 
-📷 Visual Overview
-The diagram showcases two distinct office environments (A & B), each populated with access switches, phones, laptops, and wireless access points. A centralized core switch and router provide internet access and backbone connectivity. VLAN assignments are color-coded, showing clear separation of traffic and functional zoning.
-⚙️ VLAN Configuration Snapshot
-DSW-A1(config)#do show vlan brief
 
-VLAN Name         Status  Ports
----- ------------ ------- --------------------------------------------
-10   PCs          active  Gig1/0/14–17
-20   Phones       active  Gig1/0/18–21
-30   Wi-Fi        active  Gig1/0/22–24, Gig1/1/3
-50   Management   active  Gig1/1/4
-
-
-This segmentation ensures traffic is properly scoped, enhances fault isolation, and supports scalability.
 
 # Port-Security
 
