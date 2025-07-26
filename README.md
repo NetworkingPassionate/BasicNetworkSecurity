@@ -30,7 +30,7 @@ This lab contains one example of each, allowing for comparison of syntax, behavi
 <img width="562" height="222" alt="image" src="https://github.com/user-attachments/assets/0d90a547-9184-4d73-b0d2-1e48d4c16c0f" />
 <img width="643" height="46" alt="image" src="https://github.com/user-attachments/assets/b6683a69-cff9-4bcd-a6f8-a8387731db07" />
 
-
+<b/>
 # VLANS
 
 On my lab we have quite a few devices, and often for efficiency and security, we want to seperate the traffic through the network into different logical segments using VLANs, 
@@ -39,7 +39,7 @@ this way only devices on the 'Management' VLAN, receive traffic meant for manage
 
 <img width="656" height="306" alt="image" src="https://github.com/user-attachments/assets/4013ded9-cc42-4e32-9477-3793a7653633" />
 
-
+<b/>
 
 # Port-Security
 
