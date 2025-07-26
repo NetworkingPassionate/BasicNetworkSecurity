@@ -31,6 +31,7 @@ This lab contains one example of each, allowing for comparison of syntax, behavi
 <img width="643" height="46" alt="image" src="https://github.com/user-attachments/assets/b6683a69-cff9-4bcd-a6f8-a8387731db07" />
 
 <b/>
+
 # VLANS
 
 On my lab we have quite a few devices, and often for efficiency and security, we want to seperate the traffic through the network into different logical segments using VLANs, 
