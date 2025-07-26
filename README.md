@@ -4,7 +4,7 @@ This is a set of basic network security tasks!
 
 # Passwords
 
-🔐 Password Security Demonstration: Type 5 (MD5) vs Type 9 (scrypt)
+### 🔐 Password Security Demonstration: Type 5 (MD5) vs Type 9 (scrypt)
 This network lab includes hands-on demonstrations of two Cisco password encryption schemes:
 - Type 5: Legacy MD5-based hashing
 - Type 9: Modern scrypt-based hashing, offering stronger resistance to brute-force attacks
@@ -34,12 +34,12 @@ This lab contains one example of each, allowing for comparison of syntax, behavi
 
 # VLANS
 
-🔒 Basic Security Activities – VLAN Segmentation
+## 🔒 Basic Security Activities – VLAN Segmentation
 This lab demonstrates foundational network security practices through VLAN-based segmentation across a multi-site topology.
 To enhance both efficiency and security, devices are grouped into logical domains using dedicated VLANs. For instance, only devices within the Management VLAN receive administrative traffic, while Phones, Wi-Fi clients, and User PCs operate within isolated VLANs tailored to their roles.
 
 <img width="988" height="576" alt="image" src="https://github.com/user-attachments/assets/0d44e74c-4365-4f68-9bb5-939624de279d" />
-📷 Visual Overview
+## 📷 Visual Overview
 The diagram showcases two distinct office environments (A & B), each populated with access switches, phones, laptops, and wireless access points. This segmentation ensures traffic is properly separated, enhances fault isolation, and supports scalability.
 <img width="656" height="306" alt="image" src="https://github.com/user-attachments/assets/4013ded9-cc42-4e32-9477-3793a7653633" />
 
