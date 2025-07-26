@@ -80,13 +80,11 @@ In this simple lab, MAC Address learning is set to **sticky**, and the violation
 
 <img width="498" height="86" alt="image" src="https://github.com/user-attachments/assets/89e2fb0b-fc4c-42a8-92fc-894989ea0fd7" />
 
-<img width="478" height="415" alt="image" src="https://github.com/user-attachments/assets/44dc6709-e349-4f8f-b3b4-6659f82e1701" />/>
 
+<img width="392" height="194" alt="image" src="https://github.com/user-attachments/assets/5a8b76e7-7339-4314-bda0-d133dce095d0" />
 
 Then, when a device tries to connect to one of these ports, the switch will have learned the MAC address of the authorised device depending on the MAC address learning method, and it will go in it's MAC address table. When the new device is connected to this port, the switch will compare this device to it's MAC address, and if the entries don't match, it will act depending on the violation mode it is set to. In this case, **Restrict**
 
-/><img width="320" height="302" alt="image" src="https://github.com/user-attachments/assets/124381c1-2169-4254-8041-b202c92b5a67" />
 
 
-<img width="392" height="194" alt="image" src="https://github.com/user-attachments/assets/5a8b76e7-7339-4314-bda0-d133dce095d0" />
 
