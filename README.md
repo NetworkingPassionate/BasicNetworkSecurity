@@ -48,8 +48,30 @@ The diagram showcases two distinct office environments (A & B), each populated w
 
 # Port-Security
 
+
+## 🔐 Port Security Lab Summary
+
+This lab aims to demonstrate how Cisco switch port security can prevent unauthorized access using sticky MAC address learning and the restrict violation mode.
+### Lab Setup:
+- Switch: Basic Layer 2 switch
+- Trusted Devices: PC1 and PC2 connected to ports f0/1 and f0/2
+- Rogue Device: Unregistered laptop attempting access
+- Configuration:
+- MAC address learning: sticky
+- Violation mode: restrict
+- Ports secured: f0/1 and f0/2
+### Expected Behavior:
+- The switch learns and stores the MAC addresses of PC1 and PC2.
+- When the rogue laptop connects, its MAC address doesn’t match the stored entries.
+- Because the violation mode is set to restrict, the switch:
+- Drops packets from the rogue device
+- Logs the violation
+- Increments the security violation counter
+- Does not shut down the port (unlike shutdown mode)
+
+
 Port-Security is designed to either **protect**, **restrict** or **shutdown** ports when it detects an unregistered/unauthorised device attempting access via a port. 
-Port-Security has 2 modes; sticky, static and dynamic. Each of these settings has different functionalities, depending on how secure you want your device, and how critical distruption of service can be. 
+Port-Security has 3 modes; sticky, static and dynamic. Each of these settings has different functionalities, depending on how secure you want your device, and how critical distruption of service can be. 
 
 
 Here in this example we have a basic switch setup, with 2 trusted PCs, and a rogue laptop. The rogue laptop will attempt to gain access to the network via the switch, however, the switch has not learned its MAC address an associated it with one of its ports. 
